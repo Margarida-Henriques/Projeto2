@@ -1,0 +1,18 @@
+.container7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    &__font{
+        font-weight: 800;
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__logo{
+        height: 100%;
+    }
+}

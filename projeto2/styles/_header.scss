@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+
+.container_1{
+    background-color: rgb(238, 228, 215);
+    background-size: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+    // background-color: rgb(187, 118, 27);
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    color: rgb(0, 0, 0);
+
+    &__opcions{
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+
+    &__opcions a:link{
+        color: black;
+        text-decoration: none;
+    }
+
+    &__opcions button{
+        font-size: 15px;
+        padding: 7px 15px;
+        background-color: chocolate;
+        border-radius: 4px;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    &__opcions button:hover{
+    background-color: rgb(130, 67, 23);
+    }
+
+    &__opcions button a:link{
+        color: white;
+        text-decoration: none;
+    }
+
+}

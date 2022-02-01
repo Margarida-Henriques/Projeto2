@@ -1,0 +1,80 @@
+@import "./var";
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px;
+    
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }
+
+    &__title{
+        
+        &__t1{
+            @include tt1
+        }
+        &__t2{
+            @include tt2
+        }
+    }
+    &__choice__button1{
+        font-size: 15px;
+        padding: 7px 15px;
+        background-color: chocolate;
+        border-radius: 4px;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    &__choice__button2{
+        font-size: 15px;
+        padding: 7px 15px;
+        background-color: rgb(252, 248, 245);
+        border-radius: 4px;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    &__choice__button1 a:link{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    &__choice__button2 a:link{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    &__fedback{
+        display: flex;
+        flex-direction: row;
+    }
+    &__pics{
+        display: flex;
+        flex-direction: column;
+        box-sizing: content-box;
+        &__1{
+            max-height:400px;
+        }
+    }
+    &__fedback{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        &__foto{
+            
+            height: 30px;
+            border: solid white;
+            border-radius: 50% 50%;
+            box-sizing: content-box;
+            &:not(:last-child){
+                margin-right: -15px;
+            }
+        }
+        
+    }
+}

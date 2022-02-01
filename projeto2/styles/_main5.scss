@@ -1,0 +1,116 @@
+@import "./var";
+
+
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    gap: 20px;
+    &__footer{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        max-width: 900px;
+        
+        &__letter1{
+            font-weight: 700;
+        }
+        
+    }
+    &__tittle{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        &1{
+            @include tt1
+        }
+        &2{
+            @include tt2
+        }
+    }
+    &__column{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        padding: 40px;
+        &__row{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__font1{
+            color: chocolate;
+        }
+        &__font2{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        &__font3{
+            text-align:center
+        }
+        &__1{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 25px;
+            border: solid 2px rgb(230, 230, 230);
+            border-radius: 5px 5px 5px 5px;
+            &__button{
+                padding: 0px 80px;
+                gap: 10px;
+                display: flex;
+                flex-direction: column; 
+                &B{
+                    font-size: 15px;
+                    background-color: chocolate;
+                    color: white;
+                    padding: 5px;
+                    border-style: none;
+                    border-radius: 5px 5px 5px 5px;
+                }
+            }
+            &__1{
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // margin-bottom: 40px;
+
+            }
+            &__2{
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+
+        }
+        &__2{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 25px;
+            background-color: rgb(238, 228, 215);;
+            border-radius: 5px 5px 5px 5px;
+            &__button{
+                padding: 0px 80px;
+                gap: 10px;
+                display: flex;
+                flex-direction: column; 
+                &B{
+                    font-size: 15px;
+                    background-color: chocolate;
+                    color: white;
+                    padding: 5px;
+                    border-style: none;
+                    border-radius: 5px 5px 5px 5px;
+                }
+            }
+        }
+    }
+}

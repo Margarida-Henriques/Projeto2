@@ -1,0 +1,157 @@
+@media only screen and (max-width: 900px) {
+
+
+    .main__choice{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .logo_1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main__title__t1{
+        text-align: center;
+        
+    }
+    .main__title__t2{
+        max-width: 350px;
+        text-align: center;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .main__fedback{
+        flex-direction: column;
+    }
+
+    .main__text{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .main{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    
+        
+        
+        // &__title{
+        //     text-align: center;
+        //     align-items: center;
+        // }
+        // &__text{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     gap:10px;
+        // }
+        &__pics{
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+            box-sizing: content-box;
+            &__1{
+                width: 300px;
+                height:300px ;
+            }
+        }
+        
+    }
+    .container_1{
+        background-color: rgb(238, 228, 215);
+        background-size: 100%;
+        height:100%; 
+        width:100%;
+    }
+
+    .main__title__t2{
+        font-size: 20px;
+    }
+    div.nav__opcions {
+        display: none;
+      }
+    .footer__img{
+        flex-wrap: wrap;
+        max-height:10px;
+        &__1{
+        max-height:10px;
+        }
+    }
+    .container2__01{
+        flex-wrap: wrap;
+    }
+    .container2__02{
+        flex-wrap: wrap-reverse;
+    }
+    .container2__03{
+        flex-wrap: wrap;
+    }
+    .container3__receitas{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .container4__column__text1{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 360px;
+    }
+
+ 
+    .container4__background{
+        width: 100%;
+        
+    }
+    .container4{
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .container4__column__img__row{
+        max-width:100px;
+        justify-content: center;
+        
+    }
+    .container5__column{
+        flex-wrap: wrap;
+    }
+    .container5__footer{
+        flex-wrap: wrap;
+    }
+
+    .container61{
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    .container6{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .container6__box{
+        flex-wrap: wrap;
+    }
+    div.container7{
+        display: none;
+        margin-bottom: none;
+    }
+}
+
+ 
+

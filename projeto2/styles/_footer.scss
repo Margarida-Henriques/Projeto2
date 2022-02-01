@@ -1,0 +1,19 @@
+
+.footer{
+    background-color: white;
+    margin: 30px ;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    &__img{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        &__1{
+            height: 30px;
+        }
+}
+}

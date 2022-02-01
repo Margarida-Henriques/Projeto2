@@ -1,0 +1,107 @@
+@import "./var";
+
+.arrow{
+    height: 10px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+}
+
+.container3__receitas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    &__calorias{
+        &this{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+    }
+    &__img{
+        height: 200px;
+        border-radius: 5px 5px 0px 0px;
+    }
+    &__column{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 5px 10px 10px 5px rgba(128, 128, 128, 0.672);
+        border-radius: 5px 5px;
+    }
+    &__column1{
+            padding: 10px;
+        }
+    
+    &__order{
+        display: flex;
+        flex-direction: row;
+    }
+    &__text{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        &1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0;
+            margin-right: 5px;
+            width: 40%;
+            font-size: 12px;
+            background-color: rgb(37, 107, 31);
+            padding: 5px;
+            border-radius: 10px 10px;
+        }
+        &2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0;
+            margin-right: 5px;
+            width: 20%;
+            font-size: 12px;
+            background-color: rgb(218, 206, 40);
+            padding: 5px;
+            border-radius: 10px 10px;
+            }
+        &3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0;
+            margin-right: 5px;
+            width: 20%;
+            font-size: 12px;
+            background-color: rgb(37, 107, 31);
+            padding: 5px;
+            border-radius: 10px 10px;
+        }
+    
+    }
+}
+
+
+.container3__title{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    &__1{
+        @include tt1
+    }
+    &__2{
+        @include tt2
+    }
+    &__w{
+        color: chocolate;
+        font-size: 10px;
+        margin-bottom: 200px;
+    }
+}

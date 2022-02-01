@@ -1,0 +1,74 @@
+@import "./var";
+
+
+.container2{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        gap: 50px;
+        margin-bottom: 200px;
+        
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 10px;
+        &__1{
+            @include tt1
+        }
+        &__2{
+            @include tt2
+        }
+        
+    }
+
+
+    &__01{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        &__phone{
+            height: 300px;
+            margin-right: 50px;
+        }
+        &__box{
+            max-width: 600px;
+        }
+        &__N{
+            font-size: 50px;
+            color: rgb(218, 217, 217);
+        }
+        &__title{
+            font-size: 25px;
+            font-weight: 700;
+        }
+    }
+    &__02{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        &__phone{
+            height: 300px;
+            margin-right: 50px;
+        }
+        &__box{
+            max-width: 600px;
+        }
+    }
+    &__03{
+        display: flex;
+        flex-direction: row;
+
+        gap: 100px;
+        &__phone{
+            height: 300px;
+            margin-right: 50px;
+        }
+        &__box{
+            max-width: 600px;
+        }
+    }
+}
